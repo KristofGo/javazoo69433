@@ -1,0 +1,16 @@
+/**
+ * A GiantPanda is Kristofs animal
+ * 
+ * @author Mr. Jaffe
+ * @version 1.0 2017-07-14
+ */
+public class KristofGomez extends Animal
+{
+    public KristofGomez() {
+        super("Kristof Gomez", "Black and White", 4); // super refers to the parents class object
+    }
+    
+    public String getType() {
+        return "Giant Panda"; // getting the type of animal and returning it
+    }
+}
