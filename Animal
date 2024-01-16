@@ -1,0 +1,20 @@
+public abstract class Animal
+{
+    // instance variables - replace the example below with your own
+    private String color;
+    private int legs;
+    private String studentName;
+    private String sound;
+    private String disposition; 
+    private String type;
+
+    public Animal()
+    {   // initializes instance of Animal class for the variables
+        this("Kristof Gomez", "Black and White", 4); // Default is a black animal with 4 legs
+    }
+
+    public Animal(String studentName, String color, int legs) { // public Animal declares constructor for Animal class
+        this.studentName = studentName;
+        this.color = color;
+        this.legs = legs; 
+    }
